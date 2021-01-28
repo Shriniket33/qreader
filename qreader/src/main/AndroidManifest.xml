@@ -20,6 +20,8 @@
 
   <!-- Required permission for reading -->
   <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-feature android:name="android.hardware.camera.front" android:required="true"/>
+  <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="face"></meta-data>
 
   <application>
 
